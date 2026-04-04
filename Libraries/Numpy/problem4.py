@@ -1,0 +1,13 @@
+import numpy as np
+u = np.array([1, 0])
+v = np.array([0, 1])
+z=np.add(u,v)
+y=np.subtract(u,v)
+x=np.divide(u,v)
+w=np.multiply(u,v)
+p=np.dot(u,v)
+print(z)
+print(y)
+print(x)
+print(w)
+print(p)
